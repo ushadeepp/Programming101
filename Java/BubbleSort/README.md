@@ -1,1 +1,1 @@
-# Programming101 Go
+# Programming101
