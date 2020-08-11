@@ -1,0 +1,14 @@
+
+Iterative Code
+--------------
+
+result=1
+
+FOR i IN 1 to N
+    result <- result*i;
+
+
+
+Recursive Formula
+-----------------
+factorial(n) = n*factorial(n-1)
