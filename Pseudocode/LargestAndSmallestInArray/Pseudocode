@@ -1,0 +1,17 @@
+# Finding Min and Max in the Array
+min=Arr[0]
+max=Arr[0]
+
+FOR i IN 1 to N-1
+    IF (Arr[i] < min)
+        min <- Arr[i]
+    ENDIF
+
+    IF (Arr[i] > max)
+        max <- Arr[i]
+    ENDIF
+ENDFOR;
+
+Print "Min:" min
+Print "Max:" max
+

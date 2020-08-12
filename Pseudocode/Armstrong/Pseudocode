@@ -1,0 +1,31 @@
+
+# caliculating order of number
+
+noOfDigits=0
+temp=n
+
+WHILE (temp>0)
+    temp <- temp/10;
+    noOfDigits <- noOfDigits+1;
+ENDWHILE;
+
+
+# caliculating the sum of digits power order
+
+sumOfPower=0
+temp=n
+digit=0
+WHILE (n>0)
+    digit <- temp%10;
+    sumOfPower <- power(digit,noOfDigits)
+    temp <- temp/10;
+ENDWHILE;
+
+# comparing the sum and number 
+
+IF (sumOfPower==n)
+    THEN Print "Armstrong Number"
+    ELSE Print "Not Armstrong Number"
+ENDIF
+
+

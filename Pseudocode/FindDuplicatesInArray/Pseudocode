@@ -1,0 +1,15 @@
+# Find the no of times Each Element present in Array
+
+hashmap={}
+
+FOR i IN 0 to N-1
+    IF (Arr[i] in hashmap)
+        Increment Frequency of Arr[i] by one;
+    ELSE
+        Insert Arr[i] and Initialize the value to one;
+ENDFOR;
+
+Print hashmap;
+
+
+

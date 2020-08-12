@@ -1,0 +1,11 @@
+# Rotate Array to left by D elements of Array of size N
+
+
+FOR i IN 1 to D
+    # Rotating one Element
+    temp=Arr[0];
+    FOR j in 0 to N-2
+        Arr[j] <- Arr[j+1];
+    ENDFOR;
+    Arr[N-1]=temp;
+ENDFOR;
