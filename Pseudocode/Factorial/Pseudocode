@@ -5,7 +5,7 @@ Iterative Code
 result=1
 
 FOR i IN 1 to N
-    result <- result*i;
+    result = result*i;
 ENDFOR;
 
 

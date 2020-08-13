@@ -4,11 +4,11 @@ max=Arr[0]
 
 FOR i IN 1 to N-1
     IF (Arr[i] < min)
-        min <- Arr[i]
+        min = Arr[i]
     ENDIF
 
     IF (Arr[i] > max)
-        max <- Arr[i]
+        max = Arr[i]
     ENDIF
 ENDFOR;
 

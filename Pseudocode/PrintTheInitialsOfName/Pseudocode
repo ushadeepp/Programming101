@@ -1,0 +1,27 @@
+# Given a string S of Size L which is name, which can be combination of  first name, second name, last name or any no of parts,
+# Print the initials of all names except for last name and whole name for last name
+
+
+# Slicing the string to get each parts of name
+namePartsArray=[];
+
+i=0;
+j=0;
+
+FOR ch EACH CHAR OF S:
+    IF(ch==" ")
+        Slice the string for index i to j and insert in namePartsArray;
+        j = i+1;
+    ENDIF;
+    j = j+1;
+ENDFOR;
+
+
+noOfParts=length(namePartsArray)
+
+FOR i IN 0 to noOfParts-2
+    Print First Letter of String which is at index i in namePartsArray;
+    Print ".";
+ENDFOR;
+
+Print Last String in namePartsArray;

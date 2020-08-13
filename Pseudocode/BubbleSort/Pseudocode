@@ -1,0 +1,9 @@
+# Sort given Array Arr of Size N using Bubble Sort 
+
+FOR i IN 0 to N-1
+    FOR j IN 0 to N-i-2
+        IF (Arr[j] > Arr[j+1])
+            swap Arr[j], Arr[j+1];
+        ENDIF;
+    ENDFOR;
+ENDFOR; 

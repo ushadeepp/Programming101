@@ -1,0 +1,16 @@
+# Given a string S of Size L divide and print it in N eqaual parts
+
+noOfParts=L/N
+
+IF (L%N != 0)
+    THEN Print "string cannot be divided to equal parts"
+
+i=0;
+FOR ch EACH CHAR OF S:
+    IF (i%noOfParts == 0)
+        Print "\n"
+    ENDIF;
+    Print ch;
+    i = i+1;
+ENDFOR;
+

@@ -5,8 +5,8 @@ noOfDigits=0
 temp=n
 
 WHILE (temp>0)
-    temp <- temp/10;
-    noOfDigits <- noOfDigits+1;
+    temp = temp/10;
+    noOfDigits = noOfDigits+1;
 ENDWHILE;
 
 
@@ -16,9 +16,9 @@ sumOfPower=0
 temp=n
 digit=0
 WHILE (n>0)
-    digit <- temp%10;
-    sumOfPower <- power(digit,noOfDigits)
-    temp <- temp/10;
+    digit = temp%10;
+    sumOfPower = power(digit,noOfDigits)
+    temp = temp/10;
 ENDWHILE;
 
 # comparing the sum and number 
@@ -26,6 +26,6 @@ ENDWHILE;
 IF (sumOfPower==n)
     THEN Print "Armstrong Number"
     ELSE Print "Not Armstrong Number"
-ENDIF
+ENDIF;
 
 

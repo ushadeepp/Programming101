@@ -1,0 +1,12 @@
+# Find No of vowels in a given string S of size of N
+
+noOfVowels=0
+
+FOR ch EACH CHAR OF S:
+    IF (ch is Vowel) # The logic varies by Language for the check
+        THEN noOfVowels = noOfVowels + 1;
+    ENDIF;
+ENDFOR;
+
+
+Print noOfVowels
