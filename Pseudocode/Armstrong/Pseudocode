@@ -15,9 +15,9 @@ ENDWHILE;
 sumOfPower=0
 temp=n
 digit=0
-WHILE (n>0)
+WHILE (temp>0)
     digit = temp%10;
-    sumOfPower = power(digit,noOfDigits)
+    sumOfPower = sumOfPower + power(digit,noOfDigits)
     temp = temp/10;
 ENDWHILE;
 
